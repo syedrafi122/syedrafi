@@ -3,7 +3,6 @@
     
 }
 body{
-    margin: 10px;
     padding: 0;
     font-family: monospace;
 }
@@ -55,11 +54,13 @@ header{
 }
 
 header nav ul{
+ width:70%; 
     display: flex;
 }
 
 header nav li{
     margin: 0 15px;
+
 }
 
 header nav li:first-child{
@@ -155,7 +156,7 @@ a.btn:hover{
         margin: 0 10px;
     }
     .hireme{
-        height:40px;
+        height:25px;
         font-size: 20px;
     }
     
@@ -182,6 +183,7 @@ a.btn:hover{
 .card img{
     width:10%;
     margin: 10px;
+margin-left:45%;
     border-radius: 50%;
 }
 .card {
